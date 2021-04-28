@@ -1,0 +1,52 @@
+html {
+    font-family: $font-family;
+    font-size: 100%;
+
+    box-sizing: border-box;
+
+    color: $white;
+    background-color: $background-content-color;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: rem($font-size-small);
+
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+
+    &:not([class]) {
+        margin-bottom: rem(10px);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+input {
+    color: inherit;
+    border: 0;
+    background: transparent;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    
+    list-style: none;
+}
+
+ol {
+    margin: 0;
+    padding-left: 0;
+    
+    list-style: none;
+}

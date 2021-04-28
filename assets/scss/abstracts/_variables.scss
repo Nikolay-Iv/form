@@ -1,12 +1,39 @@
 /**
 * Colors
 */
+$white: #fff;
+$black: #000;
+$tuna: #343539;
+$abbey: #4B4B4F;
+$jumbo: #717174;
+$alto: #CFCFCF;
+$flamingo: #EF483E;
 
+$background-content-color: $tuna;
+$background-solid: $abbey;
 
 /**
 * Fonts
 */
+$font-path: "../fonts";
+
+$font-family-custom: "HelveticaNeue";
+$font-family-default: sans-serif;
+
+$font-family: $font-family-custom, $font-family-default;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
 $font-size-base: 16px;
+$font-size-more-tiny: 13px;
+$font-size-tiny: 14px;
+$font-size-small: 15px;
+$font-size-medium: 20px;
+$font-size-big: 24px;
+$font-size-large: 32px;
+$font-size-huge: 56px;
 
 
 /**
@@ -19,5 +46,11 @@ $screen-big: "(min-width: 1280px)";
 /**
 * Layout
 */
-$container-max-width-desktop: rem(1170px);
-$container-padding: rem(15px);
+$container-max-width-desktop: 1170px;
+$container-padding: 15px;
+
+
+/**
+* Box-shadows
+*/
+$box-shadow: 0 rem(10px) rem(20px) rgba($black, 0.1);
