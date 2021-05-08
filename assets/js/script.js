@@ -2,11 +2,15 @@
 import $ from 'jquery';
 window.$ = $;
 
+import 'inputmask';
+
 // Modules
+import inputmask from './modules/inputmask';
 import select from './modules/select';
 
 const app = {
     ready() {
+        inputmask();
         select();
     },
 
