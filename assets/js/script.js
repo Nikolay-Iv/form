@@ -2,10 +2,12 @@
 import $ from 'jquery';
 window.$ = $;
 
+// Modules
+import select from './modules/select';
 
 const app = {
     ready() {
-        
+        select();
     },
 
     load() {

@@ -35,6 +35,11 @@ $font-size-big: 24px;
 $font-size-large: 32px;
 $font-size-huge: 56px;
 
+$line-height-medium: 24px;
+$line-height-big: 30px;
+$line-height-large: 40px;
+$line-height-huge: 68px;
+
 
 /**
 * Breakpoints
@@ -45,8 +50,8 @@ $screen-big: "(min-width: 1280px)";
 
 /**
 * Layout
-*/
-$container-max-width-desktop: 1170px;
+*/  
+$container-max-width-desktop: 1470px;
 $container-padding: 15px;
 
 
@@ -54,3 +59,22 @@ $container-padding: 15px;
 * Box-shadows
 */
 $box-shadow: 0 rem(10px) rem(20px) rgba($black, 0.1);
+
+/**
+* Transitions and Animations
+*/
+$transition-duration: .2s;
+$transition-timing: linear;
+$transition: $transition-duration $transition-timing;
+
+
+/**
+* Radius
+*/
+$border-radius: 2px;
+
+
+/**
+* Z-indexes
+*/
+$z-index-medium: 10;
