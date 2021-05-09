@@ -1,0 +1,17 @@
+.information {
+    padding: rem(24px);
+
+    background-color: $abbey;
+    box-shadow: 0 rem(10px) rem(20px) rgba($black, 0.1);
+
+    &--fixed {
+        @media #{$screen-big} {
+            width: rem(356px);
+        }
+    }
+    
+    &__text {
+        font-size: rem($font-size-small);
+        line-height: rem(17px);
+    }
+}

@@ -1,0 +1,62 @@
+.choice {
+    display: flex;
+    align-items: center;
+
+    height: rem(44px);
+    padding-right: rem(10px);
+    padding-left: rem(12px);
+
+    background-color: $background-solid;
+
+    &__icon {
+        $size: 16px;
+
+        width: rem($size);
+        height: rem($size);
+        margin-right: rem(8px);
+
+        border: rem(4px) solid $flamingo;
+        border-radius: 50%;
+
+        &--secondary {
+            border-color: $white;
+        }
+    }
+
+    &__text {
+        position: relative;
+
+        font-size: rem($font-size-small);
+        line-height: rem(19px);
+
+        overflow: hidden;
+        flex-grow: 1;
+
+        white-space: nowrap;
+
+        color: $alto;
+
+        &::after {
+            position: absolute;
+            right: 0;
+
+            width: 30%;
+            height: 100%;
+
+            content: "";
+	        pointer-events: none;
+
+            background: linear-gradient(to right, rgba($alto, 0), $abbey 100%);
+        }
+    }
+
+    &__button {
+        font-size: rem($font-size-more-tiny);
+        line-height: rem(15px);
+
+        min-width: rem(119px);
+        margin-left: rem(10px);
+
+        text-transform: uppercase;
+    }
+}

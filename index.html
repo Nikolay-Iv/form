@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форма</title>
+        <link rel="stylesheet" href="public/css/style.css" />
+    </head>
+
+    <body class="page">
+        <main class="page__content">
+            <div class="content">
+                <div class="content__section">
+                    <div class="container">
+                        <h1 class="content__title title title--huge">FTL: Прямая машина</h1>
+
+                        <div class="content__body">
+                            <div class="content__block">
+                                <form action="" class="form">
+                                    <div class="form__block">
+                                        <header class="form__header">
+                                            <div class="form__counter">
+                                                <span class="form__counter-label">1</span>
+                                            </div>
+
+                                            <div class="form__title title title--big">
+                                                Маршрут
+                                            </div>
+                                        </header>
+
+                                        <div class="form__body">
+                                            <ul class="form__list">
+                                                <li class="form__item">
+                                                    <div class="form__field">
+                                                        <input type="text" id="input1" class="form__input" name="text-input">
+                                                        <label for="input1" class="form__label">Откуда</label>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item">
+                                                    <div class="form__field">
+                                                        <input type="text" id="input2" class="form__input" name="text-input">
+                                                        <label for="input2" class="form__label">Куда</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="form__block">
+                                        <header class="form__header">
+                                            <div class="form__counter">
+                                                <span class="form__counter-label">2</span>
+                                            </div>
+
+                                            <div class="form__title title title--big">
+                                                Транспорт
+                                            </div>
+                                        </header>
+
+                                        <div class="form__body">
+                                            <ul class="form__list">
+                                                <li class="form__item form__item--small">
+                                                    <div class="form__field">
+                                                        <div class="select">
+                                                            <header class="select__header">
+                                                                <div class="select__current select__current--light">
+                                                                    Не выбрано
+                                                                </div>
+
+                                                                <div class="select__icon">
+                                                                    <svg class="select__icon-pic icon icon--arrow">
+                                                                        <use xlink:href="public/images/icons/sprite.svg#icon-arrow"></use>
+                                                                    </svg>
+                                                                </div>                                                        
+                                                            </header>
+
+                                                            <div class="select__body">
+                                                                <ul class="select__list">
+                                                                    <li class="select__item">Вариант 1</li>
+                                                                    <li class="select__item">Вариант 2</li>
+                                                                    <li class="select__item">Вариант 3</li>
+                                                                    <li class="select__item">Вариант 4</li>
+                                                                    <li class="select__item">Вариант 5</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form__label">
+                                                            Грузоподъёмность
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item form__item--small">
+                                                    <div class="form__field">
+                                                        <div class="select">
+                                                            <header class="select__header">
+                                                                <div class="select__current">
+                                                                    Задняя
+                                                                </div>
+
+                                                                <div class="select__icon">
+                                                                    <svg class="select__icon-pic icon icon--arrow">
+                                                                        <use xlink:href="public/images/icons/sprite.svg#icon-arrow"></use>
+                                                                    </svg>
+                                                                </div>                                                        
+                                                            </header>
+
+                                                            <div class="select__body">
+                                                                <ul class="select__list">
+                                                                    <li class="select__item">Задняя</li>
+                                                                    <li class="select__item">Вариант 2</li>
+                                                                    <li class="select__item">Вариант 3</li>
+                                                                    <li class="select__item">Вариант 4</li>
+                                                                    <li class="select__item">Вариант 5</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form__label">
+                                                            Способ погрузки
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="form__block">
+                                        <header class="form__header">
+                                            <div class="form__counter">
+                                                <span class="form__counter-label">3</span>
+                                            </div>
+
+                                            <div class="form__title title title--big">
+                                                Груз
+                                            </div>
+                                        </header>
+
+                                        <div class="form__body">
+                                            <ul class="form__list">
+                                                <li class="form__item form__item--narrowed">
+                                                    <div class="form__field">
+                                                        <div class="select">
+                                                            <header class="select__header">
+                                                                <div class="select__current select__current--light">
+                                                                    Не выбран
+                                                                </div>
+
+                                                                <div class="select__icon">
+                                                                    <svg class="select__icon-pic icon icon--arrow">
+                                                                        <use xlink:href="public/images/icons/sprite.svg#icon-arrow"></use>
+                                                                    </svg>
+                                                                </div>                                                        
+                                                            </header>
+
+                                                            <div class="select__body">
+                                                                <ul class="select__list">
+                                                                    <li class="select__item">Вариант 1</li>
+                                                                    <li class="select__item">Вариант 2</li>
+                                                                    <li class="select__item">Вариант 3</li>
+                                                                    <li class="select__item">Вариант 4</li>
+                                                                    <li class="select__item">Вариант 5</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form__label">
+                                                            Тип груза
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item form__item--narrowed form__item--mobile-hiding"></li>
+
+                                                <li class="form__item form__item--small form__item--mobile-hiding">
+                                                    <div class="form__field">
+                                                        <div class="select">
+                                                            <header class="select__header">
+                                                                <div class="select__current">
+                                                                    Класс 5 — Окисляющие вещества и органические перекиси
+                                                                </div>
+
+                                                                <div class="select__icon">
+                                                                    <svg class="select__icon-pic icon icon--arrow">
+                                                                        <use xlink:href="public/images/icons/sprite.svg#icon-arrow"></use>
+                                                                    </svg>
+                                                                </div>                                                        
+                                                            </header>
+
+                                                            <div class="select__body">
+                                                                <ul class="select__list">
+                                                                    <li class="select__item">
+                                                                        Класс 5 — Окисляющие вещества и органические перекиси
+                                                                    </li>
+                                                                    <li class="select__item">Вариант 2</li>
+                                                                    <li class="select__item">Вариант 3</li>
+                                                                    <li class="select__item">Вариант 4</li>
+                                                                    <li class="select__item">Вариант 5</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form__label">
+                                                            Класс опасности
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item form__item--small">
+                                                    <div class="form__field">
+                                                        <input type="text" id="input3" class="form__input" name="text-input" placeholder="≥ 1" data-operator-mask>
+                                                        <label for="input3" class="form__label">Объявленная ценность, ₽</label>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item">
+                                                    <div class="form__checkbox">
+                                                        <input type="checkbox" class="form__checkbox-input" id="checkbox1" name="checkbox" value="checkbox">
+                                                        <label for="checkbox1" class="form__checkbox-label">
+                                                            <span class="form__checkbox-icon">
+                                                                <svg class="form__checkbox-icon-pic icon icon--check">
+                                                                    <use xlink:href="public/images/icons/sprite.svg#icon-check"></use>
+                                                                </svg>
+                                                            </span>
+
+                                                            <span class="form__checkbox-text">Требуется температурный режим</span>
+                                                        </label>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item form__item--narrowed form__item--desktop-hiding">
+                                                    <div class="form__field">
+                                                        <input type="text" id="input4" class="form__input" name="text-input" value="-20">
+                                                        <label for="input4" class="form__label">От, °C</label>
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item form__item--narrowed form__item--desktop-hiding">
+                                                    <div class="form__field">
+                                                        <input type="text" id="input5" class="form__input" name="text-input" value="+23">
+                                                        <label for="input5" class="form__label">До, °C</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="form__block">
+                                        <header class="form__header">
+                                            <div class="form__counter">
+                                                <span class="form__counter-label">4</span>
+                                            </div>
+
+                                            <div class="form__title title title--big">
+                                                Время
+                                            </div>
+                                        </header>
+
+                                        <div class="form__body">
+                                            <ul class="form__list">
+                                                <li class="form__item">
+                                                    <div class="form__field">
+                                                        <div class="form__labels">
+                                                            <div class="form__label">
+                                                                Когда прибыть на точку
+                                                            </div>
+
+                                                            <div class="form__label">
+                                                                700 км в день
+                                                            </div>
+                                                        </div>
+
+                                                        <ul class="form__points">
+                                                            <li class="form__point">
+                                                                <div class="choice">
+                                                                    <div class="choice__icon"></div>
+
+                                                                    <div class="choice__text">
+                                                                        Длинный адрес с градиентом
+                                                                    </div>
+
+                                                                    <button class="choice__button button button--jumbo">
+                                                                        НЕ ВЫБРАНО
+                                                                    </button>
+                                                                </div>
+                                                            </li>
+
+                                                            <li class="form__point">
+                                                                <div class="choice">
+                                                                    <div class="choice__icon choice__icon--secondary"></div>
+
+                                                                    <div class="choice__text">
+                                                                        Адрес не указан
+                                                                    </div>
+
+                                                                    <button class="choice__button button button--jumbo" disabled>
+                                                                        НЕ ВЫБРАНО
+                                                                    </button>
+                                                                </div>
+                                                            </li>
+                                                        </ul>                                                
+                                                    </div>
+                                                </li>
+
+                                                <li class="form__item">
+                                                    <div class="form__field">
+                                                        <textarea class="form__input form__input--textarea" name="text-input" id="input6" placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"></textarea>
+                                                        <label for="input5" class="form__label">Комментарий к заказу</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="content__block">
+                                <div class="information information--fixed">
+                                    <p class="information__text">
+                                        Для расчета стоимости необходимо ввести параметры груза, пункты отправки и прибытия.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="public/js/script.js"></script>
+    </body>
+</html>
